@@ -1,0 +1,86 @@
+.ts-add__containter form {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2rem 0;
+}
+
+.ts-add__containter form input,
+.ts-add__containter form textarea {
+  width: 50%;
+  padding: 0.5rem;
+  resize: none;
+}
+
+.ts-add__containter form h1 {
+  text-align: center;
+  color: #fff;
+  margin: 1rem 0;
+}
+
+.ts-add__containter form > * {
+  margin: 0.5rem;
+}
+
+.ts-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.ts-body .ts-body__item {
+  background-color: #fff;
+  padding: 0.5rem;
+  -webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
+          box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #555;
+  margin: 0.3rem 0;
+}
+
+.ts-body .ts-body__item * {
+  margin: 0;
+}
+
+.ts-body .ts-body__item .ts-body__itemtitle h2 {
+  font-weight: 400;
+}
+
+.ts-body .ts-body__item .ts-body__iteminfo {
+  text-align: right;
+}
+
+.ts-body .ts-body__item .ts-body__iteminfo .ts-body__itemlink {
+  text-decoration: none;
+  margin-left: 0.5rem;
+}
+/*# sourceMappingURL=TimeStamp.css.map */

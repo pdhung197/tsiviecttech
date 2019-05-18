@@ -1,0 +1,73 @@
+.ts-add__containter {
+  form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 1rem 0;
+    input,
+    textarea {
+      width: 50%;
+      padding: 0.5rem;
+      resize: vertical;
+    }
+    h1 {
+      text-align: center;
+      color: #fff;
+      margin: 1rem 0;
+    }
+    > * {
+      margin: 0.5rem;
+    }
+  }
+}
+
+hr {
+  background-color: #efefef;
+}
+
+.ts-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  .ts-body__item {
+    background-color: #fff;
+    padding: 0.8rem 0.5rem;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #555;
+    margin: 0.3rem 0;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    &:hover {
+      background-color: #efefef;
+      box-shadow: -1px -1px 5px rgba(0, 0, 0, 0.4);
+      transition: all 0.2s;
+      -webkit-transition: all 0.2s;
+    }
+    * {
+      margin: 0;
+    }
+    .ts-body__itemtitle {
+      h2 {
+        font-weight: 400;
+      }
+    }
+    .ts-body__iteminfo {
+      text-align: right;
+      .ts-body__itemtime {
+        display: flex;
+        justify-content: stretch;
+      }
+      .ts-body__itemlink {
+        text-decoration: none;
+        margin-left: 0.5rem;
+      }
+    }
+  }
+}
