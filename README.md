@@ -12,7 +12,7 @@ Then, install Node Package Modules in ReactRedux directory
 
 ### `npm install`
 
-You can install Yarn, then run
+You can install ```Yarn```, then run
 
 ### `npm start` or `yarn start`
 
